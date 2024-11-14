@@ -11,9 +11,10 @@ class Jpi:
     def about(self, digits):
         """小数点に関して切り下げ"""
         return about(self.value, digits)
-    def around(self, range):
+    def around(self, range, digits):
         """円周を計算するやつ"""
-        return self.value * (2 * range)
+        new_range = (self.value, digits)
+        return self.value * (2 * new_range)
 
 #召喚するぞ
 jpi = Jpi()
