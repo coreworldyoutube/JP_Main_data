@@ -1,4 +1,4 @@
-# mymodule.py
+# jp_data.pyでごわす
 
 class Jpi:
     def __init__(self):
